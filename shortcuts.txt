@@ -1,0 +1,13 @@
+ctrl + shift + X = small to caps on selection
+ctrl + shift + Y = caps to small on selection
+sysout => ctrl+space => shortcut for System.out.println("")
+main => ctrl + space
+alt + up/down = move the line up or down
+ctrl + alt + up/down = duplicate the line 
+right click > source > generate getters and setters
+ctrl + m = toggle sidebar
+ctrl + shift + f = format code
+alt + shift + r = selects the same name across the file to change
+ctrl+ o = search in a file
+ctrl+ p = find file by search
+ctrl + shift+ l = view all shortcuts
