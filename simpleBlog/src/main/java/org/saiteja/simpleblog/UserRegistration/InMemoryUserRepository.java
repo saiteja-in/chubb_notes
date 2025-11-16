@@ -1,0 +1,19 @@
+package org.saiteja.simpleblog.UserRegistration;
+
+import org.springframework.stereotype.Repository;
+
+import java.util.*;
+@Repository
+public class InMemoryUserRepository implements UserRepository{
+    private final Map<String,User> users=new HashMap<>();
+     @Override
+     public void save(User user){
+         System.out.println("saving user "+user);
+         users.put(user.getEmail(),user);
+     }
+     @Override
+     public User findByEmail(String email){
+         return users.getOrDefault(email,null);
+     }
+
+}
